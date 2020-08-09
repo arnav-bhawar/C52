@@ -1,0 +1,102 @@
+h1 {
+    color:rgb(255, 255, 255);
+    padding-left : 650px;
+    padding-right : 750px ;
+    margin-right: 100px;
+    margin-left: 1px;}
+
+
+    h2{
+        padding-left: 800px;
+
+
+    }
+    
+ul{
+    padding-left: 600px;
+}
+
+.header * {
+    border:solid;
+}
+
+.header{
+    background-color: #ff8c8c;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.site-desctiption{
+    background-color: #00ff88;
+    display:flex;
+    flex-direction: wrap;
+    justify-content: first baseline;
+}
+
+
+.grid{
+    background-color: #00ffc8;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content:  space-evenly    ;
+    page-break-before: always; 
+}
+
+.grid1{
+    background-color: violet;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content:  space-evenly    ;
+    page-break-before: always; 
+}
+
+.grid2{
+    background-color: rgb(255, 217, 0);
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content:  space-evenly    ;
+    page-break-before: always; 
+}
+
+.footer{
+    background-color: #ff6600;
+    display:flex;
+    justify-content: flex-start;
+}
+
+p,h2{
+   color: #00435f;
+    text-align:center;
+}
+
+a:link{
+    color: rgb(142, 153, 185);
+
+}
+
+
+a:visited { 
+    color: rgb(255, 25, 0);
+}
+
+.menu a{
+padding-right: 10px;
+}
+
+.item{
+    position: relative;
+
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:    0.33;
+}
+
+.item:hover{
+    transform: scale (1.2);
+}
